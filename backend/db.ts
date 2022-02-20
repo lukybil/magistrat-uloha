@@ -1,7 +1,7 @@
 import mongoose, {Document} from 'mongoose';
 
 // my mongodb cluster
-mongoose.connect("mongodb+srv://backend:YyLA1b1dHrxYxIii@cluster0.dshee.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.dshee.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 interface ITicket extends Document {
     _id: string,
     venue_id: number,
